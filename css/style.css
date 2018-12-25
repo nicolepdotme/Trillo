@@ -26,7 +26,8 @@ Grey dark 3: #999
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
-  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3); }
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06); }
 
 * {
   margin: 0;
@@ -54,7 +55,9 @@ body {
 .container {
   max-width: 120rem;
   margin: 8rem auto;
-  background-color: var(--color-grey-light-2); }
+  background-color: var(--color-grey-light-2);
+  border-radius: 3px;
+  overflow: hidden; }
 
 .header {
   height: 7rem;
@@ -181,7 +184,7 @@ body {
   .side-nav__item:active::before {
     background-color: var(--color-primary-light); }
   .side-nav__link:link, .side-nav__link:visited {
-    color: var(--color-grey-light-1);
+    color: var(--color-grey-light-4);
     text-decoration: none;
     text-transform: uppercase;
     display: block;
@@ -201,3 +204,9 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }

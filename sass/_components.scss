@@ -164,7 +164,7 @@
 
     &__link:link,
     &__link:visited {
-        color: var(--color-grey-light-1);
+        color: var(--color-grey-light-4);
         text-decoration: none;
         text-transform: uppercase;
         display: block;
@@ -195,4 +195,16 @@
     text-align: center;
     padding: 2.5rem;
 
+}
+
+////////////////////////////////////////
+// GALLERY
+
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
 }
