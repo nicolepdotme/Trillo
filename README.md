@@ -1,3 +1,5 @@
+![Travel booking app screenshot](https://res.cloudinary.com/dqe0hw0ru/image/upload/v1565188667/trillo.png)
+
 # 🧳 Trillo
 ### Travel booking app project for [Advanced CSS & Sass Course](https://www.udemy.com/share/1000cAAEMcdFhURHw=/)
 #### 📓 Instructor: Jonas Schmedtmann
